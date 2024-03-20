@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="flex items-center flex-col">
           <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen">
             <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading">
-              Kristian Kyvik
+              Kristian K.
             </motion.h1>
           </div>
         </div>
