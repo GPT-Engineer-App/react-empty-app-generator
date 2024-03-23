@@ -26,9 +26,15 @@ const HeroSection = () => {
       <div className="container relative">
         <div className="flex items-center flex-col">
           <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen">
-            <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading">
+            <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading mb-4">
               Kristian K.
             </motion.h1>
+            <div className="flex items-center">
+              <motion.span animate={{ rotate: [0, 20, 0, 20, 0, 20, 0] }} transition={{ duration: 1.5, loop: Infinity }} className="text-4xl mr-2">
+                👋
+              </motion.span>
+              <p className="text-xl text-primary-400 dark:text-neutral-300">Hello visitor!</p>
+            </div>
           </div>
         </div>
         <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[70%]">
