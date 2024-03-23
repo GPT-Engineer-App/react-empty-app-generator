@@ -7,18 +7,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    image: images.buildingsImage,
-    heading: "Buildings.com",
-    description: "<p>A website about various types of buildings. Implemented responsive design and optimized performance.</p>",
-    websiteLink: "https://buildings.com",
-    html: true,
-    css: true,
-    javascript: true,
-    react: true,
-  },
-  {
-    id: 1,
-    image: images.buildingsImage,
+    image: "https://source.unsplash.com/random/800x600/?building",
     heading: "Buildings.com",
     description: "<p>A website about various types of buildings. Implemented responsive design and optimized performance.</p>",
     websiteLink: "https://buildings.com",
