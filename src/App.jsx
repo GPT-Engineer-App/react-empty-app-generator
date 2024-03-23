@@ -13,6 +13,12 @@ import SectionWrapper from "./components/Global/SectionWrapper";
 function App() {
   const [loading, setLoading] = useState(true);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    alert("Form submitted!");
+  };
+
   window.addEventListener("load", (e) => {
     setLoading(true);
   });
@@ -39,6 +45,36 @@ function App() {
             <div className="text-center">
               <h2 className="text-3xl font-semibold text-primary mb-4 dark:text-white">Future project coming soon</h2>
               <p className="text-lg text-neutral-700 dark:text-neutral-300">Stay tuned for exciting new developments!</p>
+            </div>
+          </section>
+          <section className="bg-white py-16 dark:bg-primary">
+            <div className="container">
+              <h2 className="text-3xl font-semibold text-primary mb-8 dark:text-white">Contact Me</h2>
+              <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
+                <div className="mb-4">
+                  <label htmlFor="name" className="block text-sm font-medium text-primary dark:text-white">
+                    Name
+                  </label>
+                  <input type="text" name="name" id="name" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary dark:bg-primary-500 dark:text-white" required />
+                </div>
+                <div className="mb-4">
+                  <label htmlFor="email" className="block text-sm font-medium text-primary dark:text-white">
+                    Email
+                  </label>
+                  <input type="email" name="email" id="email" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary dark:bg-primary-500 dark:text-white" required />
+                </div>
+                <div className="mb-4">
+                  <label htmlFor="message" className="block text-sm font-medium text-primary dark:text-white">
+                    Message
+                  </label>
+                  <textarea name="message" id="message" rows="4" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary dark:bg-primary-500 dark:text-white" required></textarea>
+                </div>
+                <div>
+                  <button type="submit" className="inline-flex justify-center rounded-md border border-transparent bg-secondary py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-secondary-600 focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2">
+                    Send
+                  </button>
+                </div>
+              </form>
             </div>
           </section>
           <Footer />
