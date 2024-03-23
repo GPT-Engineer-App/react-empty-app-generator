@@ -65,32 +65,6 @@ const HeroSection = () => {
                 </a>
               </motion.li>
             ))}
-            {socials.map((social, index) => (
-              <motion.li
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{
-                  default: {
-                    duration: 0.3,
-                    ease: [0, 0.71, 0.2, 1.01],
-                  },
-                  scale: {
-                    type: "spring",
-                    damping: 5,
-                    stiffness: 100,
-                    restDelta: 0.001,
-                  },
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 1.15 }}
-                key={index}
-                className="bg-neutral w-max rounded-full hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300"
-              >
-                <a href={social.link} target="_blank">
-                  <img className="h-14 w-14 p-4 transition-all dark:invert" src={social.logo} alt={social.alt} />
-                </a>
-              </motion.li>
-            ))}
           </ul>
         </div>
         <div className="bg-secondary py-12">
