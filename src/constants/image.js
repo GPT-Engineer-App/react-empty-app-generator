@@ -19,6 +19,7 @@ import agencyImage from "../assets/projects/agency-visible.png";
 import shortlyImage from "../assets/projects/shortly-visible.png";
 import sunnysideImage from "../assets/projects/sunnyside-visible.png";
 import slothImage from "../assets/projects/languagesloth-visible.png";
+
 import errorIllustration from "../assets/illustrations/404-vector.svg";
 import successIllustration from "../assets/illustrations/success-vector.svg";
 import brandLogoLight from "../assets/icons/logo-light.png";
