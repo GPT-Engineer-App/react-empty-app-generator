@@ -1,7 +1,7 @@
 import React from "react";
-import companyLogo1 from "../../assets/company-logos/company1.png";
-import companyLogo2 from "../../assets/company-logos/company2.png";
-import companyLogo3 from "../../assets/company-logos/company3.png";
+import schibstedLogo from "../../assets/company-logos/schibsted.png";
+import volvoLogo from "../../assets/company-logos/volvo.png";
+import martiniLogo from "../../assets/company-logos/martini.png";
 
 const CompanyLogos = () => {
   return (
@@ -10,13 +10,13 @@ const CompanyLogos = () => {
         <h2 className="text-3xl font-semibold text-center text-primary dark:text-white mb-10">Companies I've Worked With</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="flex justify-center">
-            <img src={companyLogo1} alt="Company 1 Logo" className="h-12 w-auto grayscale" />
+            <img src={schibstedLogo} alt="Schibsted Logo" className="h-12 w-auto grayscale" />
           </div>
           <div className="flex justify-center">
-            <img src={companyLogo2} alt="Company 2 Logo" className="h-12 w-auto grayscale" />
+            <img src={volvoLogo} alt="Volvo Logo" className="h-12 w-auto grayscale" />
           </div>
           <div className="flex justify-center">
-            <img src={companyLogo3} alt="Company 3 Logo" className="h-12 w-auto grayscale" />
+            <img src={martiniLogo} alt="Martini Logo" className="h-12 w-auto grayscale" />
           </div>
         </div>
       </div>
