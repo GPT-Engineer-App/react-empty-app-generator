@@ -6,6 +6,7 @@ import TwoColumnCard from "./components/TwoColumnCard";
 import FeaturedAlternate from "./components/FeaturedAlternate";
 import Footer from "./components/Footer";
 import UsesList from "./components/UsesList";
+import CompanyLogos from "./components/CompanyLogos";
 
 import "./index.css";
 import SectionWrapper from "./components/Global/SectionWrapper";
@@ -41,6 +42,7 @@ function App() {
           <SectionWrapper id="uses" heading="USES">
             <UsesList />
           </SectionWrapper>
+          <CompanyLogos />
           <section className="bg-white py-16 dark:bg-primary">
             <div className="text-center">
               <h2 className="text-3xl font-semibold text-primary mb-4 dark:text-white">Future project coming soon</h2>
