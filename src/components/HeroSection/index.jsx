@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div className="container relative">
         <div className="flex items-center flex-col">
           <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen relative">
-            <img src={heroBg} alt="Background" className="absolute w-full h-full object-cover opacity-20 dark:opacity-10" />
+            <img src={heroBg} alt="Background" className="absolute w-full h-full object-cover opacity-30 dark:opacity-20" />
             <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading mb-4 relative z-10">
               Kristian K.
             </motion.h1>

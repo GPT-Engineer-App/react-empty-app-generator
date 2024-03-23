@@ -2,15 +2,15 @@
 <svg width="1440" height="900" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd">
     <g transform="translate(720 450)">
-      <circle stroke="#222831" stroke-width="2" cx="0" cy="0" r="50"/>
-      <circle stroke="#222831" stroke-width="2" cx="-200" cy="0" r="30"/>
-      <circle stroke="#222831" stroke-width="2" cx="200" cy="0" r="30"/>
-      <circle stroke="#222831" stroke-width="2" cx="0" cy="-200" r="30"/>
-      <circle stroke="#222831" stroke-width="2" cx="0" cy="200" r="30"/>
-      <line x1="-200" y1="0" x2="0" y2="0" stroke="#222831" stroke-width="2"/>
-      <line x1="200" y1="0" x2="0" y2="0" stroke="#222831" stroke-width="2"/>
-      <line x1="0" y1="-200" x2="0" y2="0" stroke="#222831" stroke-width="2"/>
-      <line x1="0" y1="200" x2="0" y2="0" stroke="#222831" stroke-width="2"/>
+      <circle stroke="#222831" stroke-width="4" cx="0" cy="0" r="50"/>
+      <circle stroke="#222831" stroke-width="4" cx="-200" cy="0" r="30"/>
+      <circle stroke="#222831" stroke-width="4" cx="200" cy="0" r="30"/>
+      <circle stroke="#222831" stroke-width="4" cx="0" cy="-200" r="30"/>
+      <circle stroke="#222831" stroke-width="4" cx="0" cy="200" r="30"/>
+      <line x1="-200" y1="0" x2="0" y2="0" stroke="#222831" stroke-width="4"/>
+      <line x1="200" y1="0" x2="0" y2="0" stroke="#222831" stroke-width="4"/>
+      <line x1="0" y1="-200" x2="0" y2="0" stroke="#222831" stroke-width="4"/>
+      <line x1="0" y1="200" x2="0" y2="0" stroke="#222831" stroke-width="4"/>
     </g>
   </g>
 </svg>
