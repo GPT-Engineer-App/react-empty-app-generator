@@ -24,6 +24,7 @@ import errorIllustration from "../assets/illustrations/404-vector.svg";
 import successIllustration from "../assets/illustrations/success-vector.svg";
 import brandLogoLight from "../assets/icons/logo-light.png";
 import brandLogoDark from "../assets/icons/logo-dark.png";
+import heroBg from "../assets/illustrations/hero-bg.svg";
 
 export default {
   emailIcon,
@@ -51,4 +52,5 @@ export default {
   successIllustration,
   brandLogoLight,
   brandLogoDark,
+  heroBg,
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import images from "../../constants/image";
 import { motion } from "framer-motion";
+import heroBg from "../../assets/illustrations/hero-bg.svg";
 
 const socials = [
   {
@@ -25,11 +26,12 @@ const HeroSection = () => {
     <section id="home" className="bg-white dark:bg-primary">
       <div className="container relative">
         <div className="flex items-center flex-col">
-          <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen">
-            <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading mb-4">
+          <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen relative">
+            <img src={heroBg} alt="Background" className="absolute w-full h-full object-cover opacity-10 dark:opacity-5" />
+            <motion.h1 viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ type: "linear", duration: 0.5 }} className="hero__heading mb-4 relative z-10">
               Kristian K.
             </motion.h1>
-            <div className="flex items-center">
+            <div className="flex items-center relative z-10">
               <motion.span animate={{ rotate: [0, 20, 0, 20, 0, 20, 0] }} transition={{ duration: 1.5, loop: Infinity }} className="text-4xl mr-2">
                 👋
               </motion.span>
