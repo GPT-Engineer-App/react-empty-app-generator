@@ -67,9 +67,11 @@ const HeroSection = () => {
             ))}
           </ul>
         </div>
-        <div className="container">
-          <h2 className="text-2xl font-semibold text-center text-primary mb-4 dark:text-white">Open for New Projects</h2>
-          <p className="text-base text-center font-normal text-neutral-700 dark:text-neutral-300">I'm currently available for new frontend development projects. If you have a project in mind, feel free to reach out and let's discuss how I can help bring your ideas to life!</p>
+        <div className="bg-secondary py-12">
+          <div className="container">
+            <h2 className="text-4xl font-bold text-center text-white mb-6">Open for New Projects</h2>
+            <p className="text-xl text-center font-normal text-white max-w-3xl mx-auto">I'm currently available for new frontend development projects. If you have a project in mind, feel free to reach out and let's discuss how I can help bring your ideas to life!</p>
+          </div>
         </div>
       </div>
     </section>
