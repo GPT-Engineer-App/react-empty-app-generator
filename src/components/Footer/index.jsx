@@ -35,7 +35,9 @@ const Footer = () => {
           ))}
         </ul>
         <p className="text-primary font-normal text-base mb-2 dark:text-white">© {currentYear} Kristian K. All rights reserved.</p>
-        <p className="text-primary font-semibold text-base dark:text-white">Made with {"<3"}</p>
+        <p className="text-primary font-semibold text-base dark:text-white">
+          Made with <span>❤️</span> from Oslo
+        </p>
       </div>
     </div>
   );
